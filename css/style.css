@@ -69,3 +69,13 @@ header .slogan {
   font-weight: bold;
   color: white;
 }
+
+.new .bottle-left {
+  float: left;
+  width: 400px;
+}
+
+.new .bottle-right {
+  float: right;
+  width: 400px;
+}
