@@ -107,6 +107,7 @@ header .slogan {
 .features {
   padding-top: 80px;
   padding-bottom: 90px;
+  margin-bottom:  90px;
   background-color: #ffcb78;  
 }
 
@@ -128,4 +129,23 @@ header .slogan {
 .features li:nth-child(n+2) {
   padding-left: 90px;
   border-left: 1px solid #e7b66a;
+}
+
+.history {
+  margin-bottom: 90px;
+}
+
+.history .cite,
+.history img{
+  float: right;
+}
+
+.history h3,
+.history p {
+  float: left;
+  width: 500px;
+}
+
+.history p, dl, dd {
+  margin: 0;
 }
