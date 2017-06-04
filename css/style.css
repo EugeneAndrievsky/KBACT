@@ -149,3 +149,23 @@ header .slogan {
 .history p, dl, dd {
   margin: 0;
 }
+
+.press {
+  padding-top: 90px;
+  padding-bottom: 95px;
+  margin-bottom: 95px;
+  
+  background-color: #ede5d8;
+}
+
+.press blockquote {
+  margin: 0;
+}
+
+.press a {
+  float: left;
+}
+
+.press cite {
+  float: right;
+}
