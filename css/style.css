@@ -21,6 +21,7 @@ body {
 header {
   height: 480px;
   padding-top: 70px;
+  margin-bottom: 95px;
   
   background: brown url("../img/header-bg.jpg")
 }
@@ -30,6 +31,15 @@ header img {
   float: left;  
   position: relative;
   top: -12px;
+}
+
+header .slogan {
+  display: block;
+  text-align: center;  
+  
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
 }
 
 .main-nav {
@@ -60,22 +70,36 @@ header img {
   margin-left: 0px;
 }
 
-header .slogan {
-  display: block;
-  text-align: center;
-  
-  
-  font-size: 70px;
-  font-weight: bold;
-  color: white;
+.new {  
+  margin-bottom: 110px;
+}
+
+.new .bottle-left,
+.new .bottle-right {
+  width: 400px;
 }
 
 .new .bottle-left {
-  float: left;
-  width: 400px;
+  float: left;  
+  background: url("../img/bottle-left.jpg") no-repeat;
 }
 
-.new .bottle-right {
+.new .bottle-right{
+  float: right;  
+  background: url("../img/bottle-right.jpg") no-repeat;
+}
+
+.new .bottle-desctiption,
+.new .bottle-desctiption{ 
+  width: 200px;
   float: right;
-  width: 400px;
+}
+
+.new h2, h3 {
+  margin: 0;
+}
+
+.new h3 {
+  padding-top: 440px;
+  margin: 0;
 }
