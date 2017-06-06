@@ -171,3 +171,83 @@ header .slogan {
 .press cite {
   float: right;
 }
+
+.assortment {
+  margin-bottom: 90px;
+}
+
+.assortment h2 {
+  margin: 0;
+  margin-bottom: 75px;
+}
+
+.assortment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.assortment-table tr {
+  height: 70px;
+}
+
+.assortment-table th {
+  text-align: left;
+  padding-top: 15px;
+}
+
+.order {
+  padding-top: 90px;
+  padding-bottom: 115px;
+  background-color: #ffcb78;
+}
+
+.order h2 {
+   margin: 0;
+  margin-bottom: 90px;
+}
+
+.order p { 
+  margin-bottom: 75px;
+}
+
+.order-form {
+  
+}
+
+footer {
+  padding: 55px 0;
+}
+
+.footer-container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  float: left;
+  width: 225px;
+}
+
+.footer-right{
+  float: right;
+  width: 710px;
+}
+
+.footer-nav {
+  background-color: black;
+}
+
+.footer-down > p {
+  float: left;
+  width: 200px;
+}
+
+.footer-copyright {
+  float: right;  
+  margin-right: 20px;
+}
+
+
+
+
+

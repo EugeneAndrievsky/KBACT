@@ -135,9 +135,10 @@
   </div>
 </section>  
 
-<div>
+<section class="assortment">
+<div class="container">
 <h2>Ассортимент</h2>
-<table>
+<table class="assortment-table">
   <tr>
     <th>Название</th>
     <th>Алк.</th>
@@ -175,11 +176,13 @@
   </tr>
 </table>
 </div>
+</section>
 
-<div>
+<section class="order">
+<div class="container">
 <h2>Заказать</h2>
 <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
-<form action="">
+<form class="order-form" action="">
 <div>
   <label for="intro-field">Представьтесь:</label>
   <input name="intro" id="intro-field" type="text" placeholder="Как мы можем к вам обращатся?">
@@ -216,26 +219,41 @@
 <input type="submit" value="Отправить заказ">
 </form>
 </div>
+</section>
 
-<div>
-<img src="img/logo.png" alt="Кваст">
-<ul>
+<footer>
+  <div class="footer-container clearfix">
+
+    <div class="footer-left">
+      <img src="img/logo.png" alt="Кваст">
+      <div class="footer-social">
+        <a class="footer-social-in" href=#>Инстаграм</a>
+        <a class="footer-social-fb" href=#>Фейсбук</a>
+        <a class="footer-social-vk" href=#>Вконтакте</a>
+      </div>
+    </div>
+
+<div class="footer-right">
+<ul class="footer-nav">
   <li><a href="#">История</a></li>
   <li><a href="#">Производство</a></li>
   <li><a href="#">Ассортимент</a></li>
   <li><a href="#">Где купить</a></li>
 </ul>
-<a href=#>Инстаграм</a>
-<a href=#>Фейсбук</a>
-<a href=#>Вконтакте</a>
-<p>При перепечатке материалов ссылка на сайт обязательна!</p>
-<div>
+
+<div class="footer-down clearfix">
+  <p>При перепечатке материалов ссылка на сайт обязательна!</p>
+  <div class="footer-copyright">
     <p>
       <img src="img/htmlacademy.png" alt=""> <b>Разработчик:</b>
       <a href="#">HTML Academy</a>
     </p>
+  </div>
+</div>
 </div>
 
 </div>
-  </body>
+</footer>
+ 
+</body>
 </html>
