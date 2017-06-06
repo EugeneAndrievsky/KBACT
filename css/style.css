@@ -23,7 +23,9 @@ header {
   padding-top: 70px;
   margin-bottom: 95px;
   
-  background: brown url("../img/header-bg.jpg")
+  background: brown url("../img/header-bg2.jpg");
+  background-size: cover;
+  
 }
 
 header img {
