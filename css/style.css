@@ -158,15 +158,49 @@ header .slogan {
   font-size: 35px;
 }
 
-.bottle-left > p,
+.bottle-left  > p,
 .bottle-right > p {
   margin-top: 35px;
   margin-bottom: 55px;
   width: 300px;
   
   font-size: 15px;
-  line-height: 2em;
+  line-height: 2em;  
+}
+
+.new .btn {
+  box-sizing: border-box;
+  display: inline-block;
   
+  height: 50px;
+  padding: 0 22px;
+  border: 2px solid #834700;
+  
+  font-size: 15px;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.new .btn-ghost {  
+  color: #834700;
+  margin-right: 3px;
+}
+
+.new .btn-brown {
+  color: white;
+  background-color: #834700;  
+}
+
+.new b {
+  display: inline-block;    
+  width: 100px;
+  
+  text-align: center;
+  font-size: 15px;
+  line-height: 50px;
+  color: black;
 }
 
 .features {
