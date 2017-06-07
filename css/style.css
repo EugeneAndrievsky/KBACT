@@ -18,12 +18,29 @@ body {
   clear: both;
 }
 
+section  h2 {
+  font-size: 35px;  
+  color: black; 
+}
+
+section h3 {
+  font-size: 20px;
+}
+
+section h2,
+section h3 {
+  margin: 0;  
+  color: black;
+  line-height: 1em;
+  text-transform: uppercase;  
+}
+
 header {
   height: 480px;
   padding-top: 70px;
   margin-bottom: 95px;
   
-  background: brown url("../img/header-bg2.jpg");
+  background: #978437 url("../img/header-bg2.jpg");
   background-size: cover;
   
 }
@@ -78,32 +95,78 @@ header .slogan {
 
 .new .bottle-left,
 .new .bottle-right {
+  box-sizing: border-box;
   width: 400px;
+  padding-left: 35px;
+  
 }
 
 .new .bottle-left {
   float: left;  
-  background: url("../img/bottle-left.jpg") no-repeat;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  
+  background: url("../img/bottle-left.jpg") no-repeat 40px 0;
 }
 
-.new .bottle-right{
+.new .bottle-right {
   float: right;  
-  background: url("../img/bottle-right.jpg") no-repeat;
+  border-right: 1px solid gray;
+  
+  background: url("../img/bottle-right.jpg") no-repeat 40px 0;
 }
 
-.new .bottle-desctiption,
-.new .bottle-desctiption{ 
-  width: 200px;
+.new .bottle-description { 
   float: right;
+  width: 175px;
+  margin-top: 15px;
 }
 
-.new h2, h3 {
+.new .bottle-table {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  border-collapse: collapse;  
+  margin-bottom: 25px;
+  
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+.bottle-table td {
+  height: 30px;
+  vertical-align: top;  
+}
+
+.bottle-table tr:last-child {
+  height: 35px;
+}
+
+.bottle-description p {
   margin: 0;
+  font-size: 15px;
+}
+
+.new h2 {
+  margin-bottom: 110px;
 }
 
 .new h3 {
-  padding-top: 440px;
-  margin: 0;
+  padding-top: 460px;
+  font-size: 35px;
+}
+
+.bottle-left > p,
+.bottle-right > p {
+  margin-top: 35px;
+  margin-bottom: 55px;
+  width: 300px;
+  
+  font-size: 15px;
+  line-height: 2em;
+  
 }
 
 .features {
