@@ -4,7 +4,7 @@ body {
   
   font-family: "Arial", sans-serif;
   font-size: 12px;
-  color: gray;
+  color: #333;
 }
 
 .container {
@@ -16,6 +16,11 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
 }
 
 section  h2 {
@@ -205,7 +210,7 @@ header .slogan {
 
 .features {
   padding-top: 80px;
-  padding-bottom: 90px;
+  padding-bottom: 83px;
   margin-bottom:  90px;
   background-color: #ffcb78;  
 }
@@ -216,40 +221,59 @@ header .slogan {
 }
 
 .features ul{  
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .features li {
   float: left;
-  width: 210px;  
+    
   padding-top: 105px
 }
 
-.features li:nth-child(n+2) {
+.features-2,
+.features-3{
   padding-left: 90px;
   border-left: 1px solid #e7b66a;
 }
 
 .features-1 {
+  width: 304px;
   background: url("/img/feature-icon-1.png") no-repeat ;  
 }
 
 .features-2 {
+  width: 304px;
   background: url("/img/feature-icon-2.png") no-repeat 90px 6px;
 }
 
 .features-3 {
+  width: 210px;
   background: url("/img/feature-icon-3.png") no-repeat 90px 13px;
+}
+
+.features p {
+  margin: 0;
+  margin-top: 30px;
+  width: 210px;
 }
 
 .history {
   margin-bottom: 90px;
 }
 
+.history h2 {
+  margin-bottom: 95px;
+}
+
 .history .cite,
 .history img{
   float: right;
+}
+
+.history img{
+  margin-top: 10px;
 }
 
 .history h3,
@@ -260,6 +284,14 @@ header .slogan {
 
 .history p, dl, dd {
   margin: 0;
+}
+
+.history dt {
+  margin-bottom: 35px;
+}
+
+.history dd + dt {
+  margin-top: 80px;
 }
 
 .press {
