@@ -361,22 +361,60 @@ header .slogan {
 }
 
 .assortment h2 {
-  margin: 0;
   margin-bottom: 75px;
 }
 
 .assortment-table {
   width: 100%;
   border-collapse: collapse;
+  
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #757575;
 }
 
 .assortment-table tr {
   height: 70px;
 }
 
-.assortment-table th {
-  text-align: left;
+.assortment-table th {    
   padding-top: 15px;
+  color: #b6b6b6;
+  font-weight: normal;
+}
+
+.assortment-table td,
+.assortment-table th{
+  text-align: center;
+}
+
+
+.assortment-table th:first-child,
+.assortment-table td:first-child{    
+  width: 400px;  
+  text-align: left;  
+}
+
+.assortment-table td:first-child {
+  color: black;
+}
+
+.assortment-table td:last-child,
+.assortment-table th:last-child{
+  width: 200px;
+  text-align: right;
+}   
+
+.assortment-table span {  
+  padding:  2px;  
+  margin-left: 25px;    
+  
+  font-size: 8px;
+  font-weight: normal;  
+  color: white;
+  background-color: black;
+  border-radius: 2px;
 }
 
 .order {
