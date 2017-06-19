@@ -321,12 +321,39 @@ header .slogan {
   background: url("/img/quotes.png") no-repeat;
 }
 
+.press h2 {
+  margin-bottom: 85px;
+}
+
+.press p {
+  margin-bottom: 40px;
+}
+
 .press a {
   float: left;
+  padding: 15px 20px;
+  
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  color: #a7a098;
+  border: 2px solid #a7a098;
 }
 
 .press cite {
   float: right;
+  padding-top: 15px;
+  
+  margin: 0;  
+  color: black;
+  font-size: 20px;
+  line-height: 1em;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;  
 }
 
 .assortment {
