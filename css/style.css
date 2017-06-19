@@ -295,6 +295,7 @@ header .slogan {
 }
 
 .press {
+  
   padding-top: 90px;
   padding-bottom: 95px;
   margin-bottom: 95px;
@@ -303,7 +304,21 @@ header .slogan {
 }
 
 .press blockquote {
-  margin: 0;
+  position: relative;
+  margin: 0; 
+}
+
+.press blockquote::before {
+  position: absolute;
+  content: "";
+  
+  left: -105px;
+  top: 5px;
+  
+  width: 40px;
+  height: 40px;
+  
+  background: url("/img/quotes.png") no-repeat;
 }
 
 .press a {
