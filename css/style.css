@@ -432,8 +432,56 @@ header .slogan {
   margin-bottom: 75px;
 }
 
-.order-form {
+.order-form * { 
+  box-sizing: border-box;
+  border: 0px;
+  outline: 0px;
+}
+
+.order-form label,
+.order-form input[name="phone"],
+.order-form input[name="phone2"]{
+  display: inline-block;
+  vertical-align: baseline;
+  width: 196px;
   
+}
+
+.order-form input[name="phone"],
+.order-form input[name="phone2"] {
+  background-color: #ebb66c;
+  height: 50px;
+}
+
+.order-form input[name="intro"],
+.order-form input[name="email"],
+.order-form select,
+.order-form textarea {
+  display: inline-block;
+  vertical-align: middle;
+  width: 596px;
+  background-color: #e6b66c;
+  height: 50px;
+}
+
+.order-form > div {
+  margin-bottom: 13px; 
+}
+
+.order-form label[for="subscription-field"] {
+  position: relative;
+  display: block;
+  width: 600px;
+  margin-left: 200px;
+  padding-left: 60px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.order-form input[type="submit"] {
+   margin-left: 200px;
 }
 
 footer {
