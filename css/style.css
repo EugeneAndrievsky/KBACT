@@ -443,14 +443,43 @@ header .slogan {
 .order-form input[name="phone2"]{
   display: inline-block;
   vertical-align: baseline;
-  width: 196px;
-  
+  width: 196px;  
 }
 
+.order-form label {
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .order-form input[name="phone"],
 .order-form input[name="phone2"] {
   background-color: #ebb66c;
-  height: 50px;
+  height: 50px;  
+}
+
+.order-form label[for="phone2-field"] {
+  padding-left: 57px;
+}
+
+.order-form input::placeholder,
+.order-form select,
+.order-form textarea::placeholder{
+  color: #b79055;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.order-form textarea:-ms-input-placeholder,
+.order-form input:-ms-input-placeholder,
+.order-form select{
+  color: #b79055;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 20px;
 }
 
 .order-form input[name="intro"],
@@ -464,6 +493,17 @@ header .slogan {
   height: 50px;
 }
 
+.order-form label[for="comment-field"]{
+  vertical-align: top;
+  padding-top: 15px;
+}
+
+.order-form textarea {
+  height: 150px;
+  padding-top: 15px;
+  margin-bottom: 50px;
+}
+
 .order-form > div {
   margin-bottom: 13px; 
 }
@@ -473,6 +513,7 @@ header .slogan {
   display: block;
   width: 600px;
   margin-left: 200px;
+  margin-bottom: 55px;
   padding-left: 60px;
 }
 
@@ -482,6 +523,22 @@ input[type="checkbox"] {
 
 .order-form input[type="submit"] {
    margin-left: 200px;
+  
+  box-sizing: border-box;
+  display: inline-block;
+  
+  height: 50px;
+  padding: 0 22px;
+  border: 2px solid #834700;
+  
+  font-size: 15px;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  
+  color: white;
+  background-color: #834700;
 }
 
 footer {
