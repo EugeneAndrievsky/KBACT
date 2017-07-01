@@ -276,6 +276,15 @@ header .slogan {
   margin-top: 10px;
 }
 
+.history .cite {
+  font-size: 15px;
+}
+
+.history .cite a {  
+  font-style: italic;
+  color: #925b18;
+}
+
 .history h3,
 .history p {
   float: left;
@@ -560,7 +569,7 @@ header .slogan {
 }
 
 .order-form input[type="submit"] {
-   margin-left: 200px;
+  margin-left: 200px;
   
   box-sizing: border-box;
   display: inline-block;
@@ -577,6 +586,8 @@ header .slogan {
   
   color: white;
   background-color: #834700;
+  
+  cursor: pointer;
 }
 
 footer {
