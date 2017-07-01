@@ -46,8 +46,7 @@ header {
   margin-bottom: 95px;
   
   background: #978437 url("../img/header-bg2.jpg");
-  background-size: cover;
-  
+  background-size: cover;  
 }
 
 header img {
@@ -102,8 +101,7 @@ header .slogan {
 .new .bottle-right {
   box-sizing: border-box;
   width: 400px;
-  padding-left: 35px;
-  
+  padding-left: 35px;  
 }
 
 .new .bottle-left {
@@ -398,7 +396,6 @@ header .slogan {
   text-align: center;
 }
 
-
 .assortment-table th:first-child,
 .assortment-table td:first-child{    
   width: 400px;  
@@ -433,7 +430,7 @@ header .slogan {
 }
 
 .order h2 {
-   margin: 0;
+  margin: 0;
   margin-bottom: 90px;
 }
 
@@ -461,6 +458,7 @@ header .slogan {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .order-form input[name="phone"],
 .order-form input[name="phone2"] {
   background-color: #ebb66c;
@@ -559,13 +557,11 @@ header .slogan {
   
   border: 3px solid black;
   border-top: none;
-  border-left: none;
-  
-  
+  border-left: none;  
 }
 
 .checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
-  transform: rotate(45deg)
+  transform: rotate(45deg);
 }
 
 .order-form input[type="submit"] {
@@ -698,7 +694,3 @@ footer p {
 .footer-social-vk {
   background: url("../img/vk.png") no-repeat center;
 }
-
-
-
-
