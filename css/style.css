@@ -71,8 +71,8 @@ header .slogan {
   margin: 0;
   margin-bottom: 120px;
   padding: 18px 0;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;  
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);  
   list-style: none;  
 }
 
@@ -108,15 +108,15 @@ header .slogan {
 
 .new .bottle-left {
   float: left;  
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
   
   background: url("../img/bottle-left.jpg") no-repeat 40px 0;
 }
 
 .new .bottle-right {
   float: right;  
-  border-right: 1px solid gray;
+  border-right: 1px solid #e5e5e5;
   
   background: url("../img/bottle-right.jpg") no-repeat 40px 0;
 }
@@ -129,7 +129,7 @@ header .slogan {
 
 .new .bottle-table {
   width: 100%;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #e5e5e5;
   border-collapse: collapse;  
   margin-bottom: 25px;
   
