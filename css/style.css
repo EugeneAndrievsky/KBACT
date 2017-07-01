@@ -240,17 +240,17 @@ header .slogan {
 
 .features-1 {
   width: 304px;
-  background: url("/img/feature-icon-1.png") no-repeat ;  
+  background: url("../img/feature-icon-1.png") no-repeat ;  
 }
 
 .features-2 {
   width: 304px;
-  background: url("/img/feature-icon-2.png") no-repeat 90px 6px;
+  background: url("../img/feature-icon-2.png") no-repeat 90px 6px;
 }
 
 .features-3 {
   width: 210px;
-  background: url("/img/feature-icon-3.png") no-repeat 90px 13px;
+  background: url("../img/feature-icon-3.png") no-repeat 90px 13px;
 }
 
 .features p {
@@ -318,7 +318,7 @@ header .slogan {
   width: 40px;
   height: 40px;
   
-  background: url("/img/quotes.png") no-repeat;
+  background: url("../img/quotes.png") no-repeat;
 }
 
 .press h2 {
@@ -635,19 +635,19 @@ footer p {
 
 .footer-copyright a {
   margin-top: -4px;
-  background: #1b1b1b url("/img/academy.png") no-repeat center;
+  background: #1b1b1b url("../img/academy.png") no-repeat center;
 }
 
 .footer-social-in {
-  background: url("/img/instagram.png") no-repeat center;
+  background: url("../img/instagram.png") no-repeat center;
 }
 
 .footer-social-fb {
-  background: url("/img/facebook.png") no-repeat center;
+  background: url("../img/facebook.png") no-repeat center;
 }
 
 .footer-social-vk {
-  background: url("/img/vk.png") no-repeat center;
+  background: url("../img/vk.png") no-repeat center;
 }
 
 
