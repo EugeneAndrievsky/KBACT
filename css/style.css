@@ -752,6 +752,10 @@ footer {
   text-decoration: none;
 }
 
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
 .footer-down p {
   float: left;
   width: 200px;
