@@ -1,7 +1,7 @@
 body {
   width: 1200px;
-  margin: 0 auto; 
-  
+  margin: 0 auto;
+
   font-family: "Arial", sans-serif;
   font-size: 12px;
   color: #333;
@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-.clearfix::after {  
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -23,9 +23,9 @@ p {
   line-height: 30px;
 }
 
-section  h2 {
-  font-size: 35px;  
-  color: black; 
+section h2 {
+  font-size: 35px;
+  color: black;
 }
 
 section h3 {
@@ -34,32 +34,34 @@ section h3 {
 
 section h2,
 section h3 {
-  margin: 0;  
+  margin: 0;
+
   color: black;
   line-height: 1em;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 header {
-  height: 480px;
-  padding-top: 70px;
+  min-height: 480px;
+  padding-top: 58px;
   margin-bottom: 95px;
-  
+
   background: #978437 url("../img/header-bg2.jpg");
-  background-size: cover;  
+  background-position: center top;
+  background-size: cover;
 }
 
 header img {
   display: inline-block;
-  float: left;  
-  position: relative;
-  top: -12px;
+  float: left;
+
+  vertical-align: top;
 }
 
 header .slogan {
   display: block;
-  text-align: center;  
-  
+  text-align: center;
+
   font-size: 70px;
   font-weight: bold;
   color: white;
@@ -68,32 +70,46 @@ header .slogan {
 .main-nav {
   float: right;
   margin: 0;
+  margin-top: 12px;
   margin-bottom: 120px;
   padding: 18px 0;
-  border-top: 1px solid rgba(255,255,255,0.2);
-  border-bottom: 1px solid rgba(255,255,255,0.2);  
-  list-style: none;  
+
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  list-style: none;
 }
 
 .main-nav li {
-  display: inline-block;  
+  display: inline-block;
+
+  vertical-align: top;
 }
 
 .main-nav a {
   margin-left: 50px;
   color: white;
-  
+
   font-size: 16px;
   text-decoration: none;
-  text-transform: uppercase;  
+  text-transform: uppercase;
   font-weight: 600;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
 }
 
 .main-nav li:first-child > a {
   margin-left: 0px;
 }
 
-.new {  
+
+
+.new {
+  margin-bottom: 110px;
+}
+
+.new h2 {
   margin-bottom: 110px;
 }
 
@@ -101,36 +117,38 @@ header .slogan {
 .new .bottle-right {
   box-sizing: border-box;
   width: 400px;
-  padding-left: 35px;  
+  padding-top: 15px;
+  padding-left: 35px;
 }
 
 .new .bottle-left {
-  float: left;  
+  float: left;
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
-  
-  background: url("../img/bottle-left.jpg") no-repeat 40px 0;
+
+  background: #ffffff url("../img/bottle-left.jpg") no-repeat;
+  background-position: 40px 0;
 }
 
 .new .bottle-right {
-  float: right;  
+  float: right;
   border-right: 1px solid #e5e5e5;
-  
-  background: url("../img/bottle-right.jpg") no-repeat 40px 0;
+
+  background: #ffffff url("../img/bottle-right.jpg") no-repeat;
+  background-position: 40px 0;
 }
 
-.new .bottle-description { 
+.new .bottle-description {
   float: right;
   width: 175px;
-  margin-top: 15px;
 }
 
 .new .bottle-table {
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
-  border-collapse: collapse;  
+  border-collapse: collapse;
   margin-bottom: 25px;
-  
+
   font-size: 15px;
   line-height: 15px;
   font-weight: 700;
@@ -140,7 +158,7 @@ header .slogan {
 
 .bottle-table td {
   height: 30px;
-  vertical-align: top;  
+  vertical-align: top;
 }
 
 .bottle-table tr:last-child {
@@ -152,65 +170,72 @@ header .slogan {
   font-size: 15px;
 }
 
-.new h2 {
-  margin-bottom: 110px;
-}
-
 .new h3 {
+  margin-bottom: 35px;
   padding-top: 460px;
   font-size: 35px;
 }
 
-.bottle-left  > p,
+.bottle-left > p,
 .bottle-right > p {
-  margin-top: 35px;
+  margin: 0;
   margin-bottom: 55px;
   width: 300px;
-  
+
   font-size: 15px;
-  line-height: 2em;  
+  line-height: 2em;
 }
 
 .new .btn {
   box-sizing: border-box;
   display: inline-block;
-  
+
   height: 50px;
   padding: 0 22px;
   border: 2px solid #834700;
-  
+
   font-size: 15px;
   line-height: 46px;
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
+  vertical-align: top;
+
+  white-space: nowrap;
 }
 
-.new .btn-ghost {  
-  color: #834700;
+.new .btn-ghost {
+  max-width: 150px;
   margin-right: 3px;
+
+  color: #834700;
 }
 
 .new .btn-brown {
+  max-width: 120px;
+  margin-right: 3px;
+
   color: white;
-  background-color: #834700;  
+
+  background-color: #834700;
 }
 
-.new b {
-  display: inline-block;    
-  width: 100px;
-  
-  text-align: center;
-  font-size: 15px;
-  line-height: 50px;
+.new b.btn {
+  max-width: 90px;
+
   color: black;
+
+  border: 2px solid transparent;
 }
+
+
 
 .features {
   padding-top: 80px;
   padding-bottom: 83px;
-  margin-bottom:  90px;
-  background-color: #ffcb78;  
+  margin-bottom: 90px;
+
+  background-color: #ffcb78;
 }
 
 .features-container {
@@ -218,7 +243,7 @@ header .slogan {
   margin: 0 auto;
 }
 
-.features ul{  
+.features ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -226,36 +251,43 @@ header .slogan {
 
 .features li {
   float: left;
-    
+
   padding-top: 105px
 }
 
 .features-2,
-.features-3{
+.features-3 {
   padding-left: 90px;
   border-left: 1px solid #e7b66a;
 }
 
 .features-1 {
   width: 304px;
-  background: url("../img/feature-icon-1.png") no-repeat ;  
+  background: url("../img/feature-icon-1.png") no-repeat;
 }
 
 .features-2 {
   width: 304px;
-  background: url("../img/feature-icon-2.png") no-repeat 90px 6px;
+  background: url("../img/feature-icon-2.png") no-repeat;
+  background-position: 90px 6px;
 }
 
 .features-3 {
   width: 210px;
-  background: url("../img/feature-icon-3.png") no-repeat 90px 13px;
+  background: url("../img/feature-icon-3.png") no-repeat;
+  background-position: 90px 13px;
+}
+
+.features h3 {
+  margin-bottom: 30px;
 }
 
 .features p {
   margin: 0;
-  margin-top: 30px;
   width: 210px;
 }
+
+
 
 .history {
   margin-bottom: 90px;
@@ -266,30 +298,39 @@ header .slogan {
 }
 
 .history .cite,
-.history img{
+.history img {
   float: right;
 }
 
-.history img{
-  margin-top: 10px;
+.history img {
+  padding-top: 10px;
 }
 
 .history .cite {
   font-size: 15px;
 }
 
-.history .cite a {  
+.history .cite a {
   font-style: italic;
   color: #925b18;
 }
 
-.history h3,
+.history b,
 .history p {
   float: left;
   width: 500px;
+  margin: 0;
 }
 
-.history p, dl, dd {
+.history b {
+  font-size: 20px;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: black;
+}
+
+.history dl,
+dd {
   margin: 0;
 }
 
@@ -301,30 +342,32 @@ header .slogan {
   margin-top: 80px;
 }
 
+
+
 .press {
-  
   padding-top: 90px;
   padding-bottom: 95px;
   margin-bottom: 95px;
-  
+
   background-color: #ede5d8;
 }
 
 .press blockquote {
   position: relative;
-  margin: 0; 
+
+  margin: 0;
 }
 
 .press blockquote::before {
   position: absolute;
   content: "";
-  
+
   left: -105px;
   top: 5px;
-  
+
   width: 40px;
   height: 40px;
-  
+
   background: url("../img/quotes.png") no-repeat;
 }
 
@@ -333,19 +376,20 @@ header .slogan {
 }
 
 .press p {
+  margin: 0;
   margin-bottom: 40px;
 }
 
 .press a {
   float: left;
   padding: 15px 20px;
-  
+
   font-size: 15px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  
+
   color: #a7a098;
   border: 2px solid #a7a098;
 }
@@ -353,15 +397,17 @@ header .slogan {
 .press cite {
   float: right;
   padding-top: 15px;
-  
-  margin: 0;  
+  margin: 0;
+
   color: black;
   font-size: 20px;
   line-height: 1em;
   font-style: normal;
   font-weight: bold;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
+
+
 
 .assortment {
   margin-bottom: 90px;
@@ -374,7 +420,7 @@ header .slogan {
 .assortment-table {
   width: 100%;
   border-collapse: collapse;
-  
+
   font-size: 13px;
   text-transform: uppercase;
   font-weight: bold;
@@ -385,21 +431,21 @@ header .slogan {
   height: 70px;
 }
 
-.assortment-table th {    
+.assortment-table th {
   padding-top: 15px;
   color: #b6b6b6;
   font-weight: normal;
 }
 
 .assortment-table td,
-.assortment-table th{
+.assortment-table th {
   text-align: center;
 }
 
 .assortment-table th:first-child,
-.assortment-table td:first-child{    
-  width: 400px;  
-  text-align: left;  
+.assortment-table td:first-child {
+  width: 400px;
+  text-align: left;
 }
 
 .assortment-table td:first-child {
@@ -407,21 +453,23 @@ header .slogan {
 }
 
 .assortment-table td:last-child,
-.assortment-table th:last-child{
+.assortment-table th:last-child {
   width: 200px;
   text-align: right;
-}   
+}
 
-.assortment-table span {  
-  padding:  2px;  
-  margin-left: 25px;    
-  
+.assortment-table span {
+  padding: 2px;
+  margin-left: 25px;
+
   font-size: 8px;
-  font-weight: normal;  
+  font-weight: normal;
   color: white;
   background-color: black;
   border-radius: 2px;
 }
+
+
 
 .order {
   padding-top: 90px;
@@ -434,22 +482,22 @@ header .slogan {
   margin-bottom: 90px;
 }
 
-.order p { 
+.order p {
   margin-bottom: 75px;
 }
 
-.order-form * { 
+.order-form * {
   box-sizing: border-box;
+
   border: 0px;
-  outline: 0px;
 }
 
 .order-form label,
 .order-form input[name="phone"],
-.order-form input[name="phone2"]{
+.order-form input[name="phone2"] {
   display: inline-block;
   vertical-align: baseline;
-  width: 196px;  
+  width: 196px;
 }
 
 .order-form label {
@@ -461,8 +509,9 @@ header .slogan {
 
 .order-form input[name="phone"],
 .order-form input[name="phone2"] {
+  height: 50px;
+
   background-color: #ebb66c;
-  height: 50px;  
 }
 
 .order-form label[for="phone2-field"] {
@@ -471,22 +520,13 @@ header .slogan {
 
 .order-form input::placeholder,
 .order-form select,
-.order-form textarea::placeholder{
-  color: #b79055;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
+.order-form textarea::placeholder {
   padding-left: 20px;
-}
 
-.order-form textarea:-ms-input-placeholder,
-.order-form input:-ms-input-placeholder,
-.order-form select{
   color: #b79055;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
-  padding-left: 20px;
 }
 
 .order-form input[name="intro"],
@@ -494,16 +534,20 @@ header .slogan {
 .order-form select,
 .order-form textarea {
   display: inline-block;
-  vertical-align: middle;
   width: 596px;
-  background-color: #e6b66c;
   height: 50px;
+
+  vertical-align: middle;
+
+  background-color: #e6b66c;
+}
+
 .order-form select {
   appearance: none;
 }
 
 .order-form .select {
-  position: relative; 
+  position: relative;
 }
 
 .order-form label[for="order-field"]::after {
@@ -518,13 +562,14 @@ header .slogan {
   border: 7px solid #b79055;
   border-top-color: transparent;
   border-right-color: transparent;
-  
+
   transform: rotate(-45deg);
 }
 
-.order-form label[for="comment-field"]{
-  vertical-align: top;
+.order-form label[for="comment-field"] {
   padding-top: 15px;
+
+  vertical-align: top;
 }
 
 .order-form textarea {
@@ -534,18 +579,18 @@ header .slogan {
 }
 
 .order-form > div {
-  margin-bottom: 13px; 
+  margin-bottom: 13px;
 }
 
 .order-form label[for="subscription-field"] {
   position: relative;
+
   display: block;
   width: 600px;
-  
   margin-left: 200px;
   margin-bottom: 55px;
   padding-left: 60px;
-  
+
   cursor: pointer;
 }
 
@@ -561,25 +606,25 @@ header .slogan {
   position: absolute;
   top: -9px;
   left: 0;
-  
+
   width: 36px;
   height: 36px;
-  
+
   background-color: #e6b66c
 }
 
- .checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+.checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
   content: "";
   position: absolute;
   top: 4px;
   left: 12px;
-  
+
   width: 8px;
   height: 18px;
-  
+
   border: 3px solid black;
   border-top: none;
-  border-left: none;  
+  border-left: none;
 }
 
 .checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
@@ -588,29 +633,33 @@ header .slogan {
 
 .order-form input[type="submit"] {
   margin-left: 200px;
-  
+
   box-sizing: border-box;
   display: inline-block;
-  
+
   height: 50px;
   padding: 0 22px;
   border: 2px solid #834700;
-  
+
   font-size: 15px;
   line-height: 46px;
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
-  
+  vertical-align: top;
+
   color: white;
   background-color: #834700;
-  
+
   cursor: pointer;
 }
+
+
 
 footer {
   padding-top: 90px;
   padding-bottom: 55px;
+
   background-color: black;
 }
 
@@ -630,89 +679,101 @@ footer {
   margin-bottom: 10px;
 }
 
-.footer-right{
+.footer-right {
   float: right;
   width: 710px;
 }
 
-.footer-nav {  
+.footer-nav {
   margin: 0;
+  margin-left: -55px;
   margin-bottom: 75px;
-  padding: 0;  
-  list-style: none;    
+  padding: 0;
+
+  list-style: none;
 }
 
 .footer-nav li {
   display: inline-block;
-  margin-right: 55px;
+  margin-left: 55px;
+
+  vertical-align: top;
 }
 
 .footer-nav a {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
-  
+
   color: white;
   text-decoration: none;
 }
 
-footer p {
-  margin: 0;
-}
-
-.footer-down > p {
+.footer-down p {
   float: left;
   width: 200px;
+  margin: 0;
   padding-top: 13px;
-  
+
   font-size: 13px;
   line-height: 20px;
   color: #969696;
 }
 
-.footer-copyright {
-  float: right;  
-  margin-right: 20px;
+.footer-down .footer-copyright {
+  float: right;
+  width: 450px;
+  padding-top: 0;
+
+  text-align: right;
 }
 
 .footer-copyright b {
+  display: inline-block;
+  padding-top: 13px;
+
+  vertical-align: baseline;
   color: #999;
-  margin-left: 25px;
 }
 
 .footer-copyright span {
   color: #8d8d8d;
 }
 
-.footer-social a,
-.footer-copyright a {
+.footer-socials .footer-social,
+.footer-copyright .footer-social {
   display: inline-block;
   vertical-align: top;
   width: 70px;
   height: 70px;
-  
+
   font-size: 0;
+
   background-color: #1b1b1b;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.footer-social a:hover,
-.footer-copyright a:hover{
+.footer-socials .footer-social:hover,
+.footer-copyright .footer-social:hover {
   background-color: #222;
 }
 
-.footer-copyright a {
-  margin-top: -4px;
-  background: #1b1b1b url("../img/academy.png") no-repeat center;
-}
-
 .footer-social-in {
-  background: url("../img/instagram.png") no-repeat center;
+  background-image: url("../img/instagram.png");
 }
 
 .footer-social-fb {
-  background: url("../img/facebook.png") no-repeat center;
+  background-image: url("../img/facebook.png");
 }
 
 .footer-social-vk {
-  background: url("../img/vk.png") no-repeat center;
+  background-image: url("../img/vk.png");
+}
+
+.footer-copyright .footer-social {
+  margin-top: -4px;
+  margin-right: 25px;
+
+  background-image: url("../img/academy.png");
 }

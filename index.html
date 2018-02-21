@@ -13,7 +13,7 @@
 <header>
   <div class="container">
     <div class="clearfix">
-      <img src="img/logo.png" alt="Кваст">
+      <img src="img/logo.png" width="140" height="76" alt="Кваст">
       <ul class="main-nav">
         <li><a href="#">История</a></li>
         <li><a href="#">Производство</a></li>
@@ -21,7 +21,7 @@
         <li><a href="#">Где купить</a></li>
       </ul>
     </div>
-    <span class="slogan">Крафтовый квас<br>всему голова!</span>
+    <span class="slogan">Крафтовый квас всему голова!</span>
   </div>
 </header>  
 
@@ -46,7 +46,7 @@
       <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
       <a class="btn btn-ghost" href="#">Подробнее</a>
       <a class="btn btn-brown" href="#">Купить</a>
-      <b>150 Р.</b>
+      <b class="btn">150 Р.</b>
     </div>
     <div class="bottle-right">        
       <div class="bottle-description">
@@ -66,7 +66,7 @@
       <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
       <a class="btn btn-ghost" href="#">Подробнее</a>
       <a class="btn btn-brown" href="#">Купить</a>
-      <b>90 Р.</b>
+      <b class="btn">90 Р.</b>
     </div>
   </div>
 </section>
@@ -95,25 +95,25 @@
     <h2>Немного истории</h2>
     <dl>
       <dt class="clearfix">
-        <h3>Происхождение кваса</h3>
+        <b>Происхождение кваса</b>
         <div class="cite">
           <cite>Источник: </cite>
           <a href="ru.wikipedia.org">ru.wikipedia.org</a>
         </div>
       </dt>
       <dd class="clearfix">
-        <img src="img/wiki-1.png" alt="">
+        <img src="img/wiki-1.png" width="200" height="101" alt="">
         <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо России квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он везде одинаково — квас.</p>
       </dd>
       <dt class="clearfix">
-        <h3>Классификация кваса</h3>
+        <b>Классификация кваса</b>
         <div class="cite">    
           <cite>Источник: </cite>
           <a href="ru.wikipedia.org">ru.wikipedia.org</a>
         </div>
       </dt>
       <dd class="clearfix">
-        <img src="img/wiki-2.png" alt="">
+        <img src="img/wiki-2.png" width="200" height="101" alt="">
         <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
       </dd>
     </dl>
@@ -181,7 +181,7 @@
   <div class="container">
     <h2>Заказать</h2>
     <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
-    <form class="order-form" action="">
+    <form class="order-form" action="https://echo.htmlacademy.ru" method="post">
       <div>
         <label for="intro-field">Представьтесь:</label>
         <input name="intro" id="intro-field" type="text" placeholder="Как мы можем к вам обращатся?">
@@ -190,21 +190,23 @@
         <label for="phone-field">Номер телефона:</label>
         <input type="text" name="phone" id="phone-field" placeholder="+7(xxx)xxx-xx-xx">
         <label for="phone2-field">Доп. номер:</label>
-        <input type="text" name="phone2" id="phone-field2" placeholder="+7(xxx)xxx-xx-xx">
+        <input type="text" name="phone2" id="phone2-field" placeholder="+7(xxx)xxx-xx-xx">
       </div>
       <div>
         <label for="phone-field">Email:</label>
         <input type="text" name="email" id="email-field" placeholder="Ваша электронная почта">
       </div>
-      <div>
+      <div class="select">
         <label for="order-field">Объем заказа:</label>
         <select name="order" id="order-field">
           <option value="1">От 5 до 10 баррелей в неделю</option>
+          <option value="2">От 10 до 25 баррелей в неделю</option>
+          <option value="3">Свыше 25 баррелей в неделю</option>
         </select>  
       </div>
       <div>
         <label for="comment-field">Доп. комментарий:</label>
-        <textarea name="comment" id="comment-field" cols="30" rows="10" placeholder="Сообщите нам все, что считаете нужным">      </textarea>
+        <textarea name="comment" id="comment-field" cols="30" rows="10" placeholder="Сообщите нам все, что считаете нужным"></textarea>
       </div>
       <div>   
         <label class="checkbox" for="subscription-field">
@@ -220,11 +222,11 @@
 <footer>
   <div class="footer-container clearfix">
     <div class="footer-left">
-      <img src="img/logo.png" alt="Кваст">
-      <div class="footer-social">
-        <a class="footer-social-in" href=#>Инстаграм</a><!--
-     --><a class="footer-social-fb" href=#>Фейсбук</a><!--
-     --><a class="footer-social-vk" href=#>Вконтакте</a>
+      <img src="img/logo.png" width="140" height="76" alt="Кваст">
+      <div class="footer-socials">
+        <a class="footer-social footer-social-in" href=#>Инстаграм</a><!--
+     --><a class="footer-social footer-social-fb" href=#>Фейсбук</a><!--
+     --><a class="footer-social footer-social-vk" href=#>Вконтакте</a>
       </div>
     </div>
     <div class="footer-right">
@@ -235,14 +237,12 @@
         <li><a href="#">Где купить</a></li>
       </ul>
       <div class="footer-down clearfix">
-        <p>При перепечатке материалов ссылка на сайт обязательна!</p>
-        <div class="footer-copyright">
-          <p>
-            <a href="#" src="img/htmlacademy.png" alt=""></a> 
-            <b>Разработчик:</b>
-            <span>HTML Academy</span>
-          </p>
-        </div>
+        <p>При перепечатке материалов ссылка на сайт обязательна!</p>        
+        <p class="footer-copyright">
+          <a class="footer-social" href="#"></a> 
+          <b>Разработчик:</b>
+          <span>HTML Academy</span>
+        </p>        
       </div>
     </div>
   </div>
