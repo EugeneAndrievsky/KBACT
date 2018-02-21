@@ -498,6 +498,28 @@ header .slogan {
   width: 596px;
   background-color: #e6b66c;
   height: 50px;
+.order-form select {
+  appearance: none;
+}
+
+.order-form .select {
+  position: relative; 
+}
+
+.order-form label[for="order-field"]::after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 14px;
+
+  width: 0;
+  height: 0;
+
+  border: 7px solid #b79055;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  
+  transform: rotate(-45deg);
 }
 
 .order-form label[for="comment-field"]{
