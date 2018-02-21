@@ -115,7 +115,8 @@ header .slogan {
 
 .new .bottle-left,
 .new .bottle-right {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 400px;
   padding-top: 15px;
   padding-left: 35px;
@@ -187,7 +188,8 @@ header .slogan {
 }
 
 .new .btn {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: inline-block;
 
   height: 50px;
@@ -487,7 +489,8 @@ dd {
 }
 
 .order-form * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 
   border: 0px;
 }
@@ -518,6 +521,39 @@ dd {
   padding-left: 57px;
 }
 
+.order-form input::-webkit-input-placeholder,
+.order-form select,
+.order-form textarea::-webkit-input-placeholder {
+  padding-left: 20px;
+
+  color: #b79055;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.order-form input:-ms-input-placeholder,
+.order-form select,
+.order-form textarea:-ms-input-placeholder {
+  padding-left: 20px;
+
+  color: #b79055;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.order-form input::-ms-input-placeholder,
+.order-form select,
+.order-form textarea::-ms-input-placeholder {
+  padding-left: 20px;
+
+  color: #b79055;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .order-form input::placeholder,
 .order-form select,
 .order-form textarea::placeholder {
@@ -543,7 +579,9 @@ dd {
 }
 
 .order-form select {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .order-form .select {
@@ -563,7 +601,9 @@ dd {
   border-top-color: transparent;
   border-right-color: transparent;
 
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+          transform: rotate(-45deg);
 }
 
 .order-form label[for="comment-field"] {
@@ -628,13 +668,16 @@ dd {
 }
 
 .checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .order-form input[type="submit"] {
   margin-left: 200px;
 
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
   display: inline-block;
 
   height: 50px;
